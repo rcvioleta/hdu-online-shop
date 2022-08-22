@@ -1,0 +1,25 @@
+{
+  "name": "hdu-online-shop",
+  "version": "1.0.0",
+  "description": "- Carl Cabahug\r - Jason Flores\r - Jeffrey Bonajos\r -  Rogene Violeta",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --prefix server",
+    "install": "npm run install-client && npm run install-server",
+    "build-and-start-client": "npm run build --prefix client && npm run start --prefix client",
+    "watch": "npm run build-and-start-client & npm run watch --prefix server",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcvioleta/hdu-online-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcvioleta/hdu-online-shop/issues"
+  },
+  "homepage": "https://github.com/rcvioleta/hdu-online-shop#readme"
+}
