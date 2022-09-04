@@ -4,6 +4,6 @@ import { greet } from '../controllers/test-controller'
 
 const testRouter = express.Router();
 
-testRouter.use('/', greet);
+testRouter.use('/api/test', greet);
 
 export default testRouter;
